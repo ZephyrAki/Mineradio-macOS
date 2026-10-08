@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **Maintenance Status: Unmaintained**
+>
+> This project is no longer actively maintained. No further feature updates, bug fixes, or compatibility updates are planned.
+>
+> The source code and existing releases will remain available for learning, reference, and use. Once archived, the repository is read-only and no longer accepts new Issues or Pull Requests. Maintenance may resume in the future.
+
 <div align="center">
 
 
@@ -13,16 +20,16 @@
 
 # Mineradio macOS
 
-Mineradio macOS is an unofficial macOS-focused port and maintained edition of [XxHuberrr/Mineradio](https://github.com/XxHuberrr/Mineradio). This repository continues the project with a Mac-first desktop experience: completing macOS packaging, platform paths and update asset selection, and exploring macOS-native motion, window layering and immersive playback on top of it.
+Mineradio macOS is an unofficial macOS-focused port of [XxHuberrr/Mineradio](https://github.com/XxHuberrr/Mineradio). This repository previously focused on a Mac-first desktop experience: completing macOS packaging, platform paths and update asset selection, and exploring macOS-native motion, window layering and immersive playback on top of it. It is no longer actively maintained.
 
-**Disclaimer:** this is *not* an official Mac release from the original author. The code, design and branding of the original project belong to the upstream repository; the modifications published here are maintained publicly under the GPL-3.0 license.
+**Disclaimer:** this is *not* an official Mac release from the original author. The code, design and branding of the original project belong to the upstream repository; the modifications published here remain publicly available under the GPL-3.0 license.
 
 ## Project Positioning
 
-- A macOS adaptation and long-term maintenance branch of Mineradio
+- A macOS adaptation of Mineradio (unmaintained)
 - Preserves the immersive music-player core experience of the original project
-- Prioritizes fixes for macOS runtime, packaging, paths, updates and desktop integration
-- Will progressively add interactions, animations and visual details that fit Mac usage habits
+- Previously prioritized fixes for macOS runtime, packaging, paths, updates and desktop integration
+- Previously planned to add interactions, animations and visual details that fit Mac usage habits; no further development is planned
 
 If you need the official Windows installer, please go to the upstream repository:
 
@@ -44,9 +51,9 @@ If you need the official Windows installer, please go to the upstream repository
 Current release installers are built and tested for Apple Silicon Macs first:
 
 - **Apple Silicon:** arm64 installers are published, for M1 / M2 / M3 / M4 series Macs
-- **Intel Mac:** not yet published as a formally supported platform. x64 or Universal installers will be evaluated based on available test conditions and user feedback
+- **Intel Mac:** not published as a formally supported platform. There are no plans to evaluate or publish x64 or Universal installers
 
-If you are using an Intel Mac, please do not treat the current arm64 installer as a usable build for now. Feel free to open an Issue with your device model, macOS version and startup logs so compatibility can be verified and added later.
+If you are using an Intel Mac, please do not treat the current arm64 installer as a usable build. The project is unmaintained and no longer accepts new Issues or provides further compatibility verification.
 
 ## Core Features
 
@@ -115,12 +122,12 @@ See [PRIVACY.md](./PRIVACY.md) for details.
 
 Thanks to **XxHuberrr** for creating Mineradio and open-sourcing it under GPL-3.0. The macOS adaptation work in this repository builds on that foundation.
 
-The co-creators, experience feedback contributors and release-preparation helpers listed in the upstream README are equally important to Mineradio being able to keep getting adapted and maintained.
+The co-creators, experience feedback contributors and release-preparation helpers listed in the upstream README provided an equally important foundation for the previous adaptation and maintenance of Mineradio.
 
 ## Copyright & License
 
 Copyright (C) 2026 XxHuberrr.
 
-Modifications in this repository are maintained by AkiZephyr and continue to be licensed under GPL-3.0. See [LICENSE](./LICENSE).
+Modifications in this repository were previously maintained by AkiZephyr and remain licensed under GPL-3.0. See [LICENSE](./LICENSE).
 
-The MR logo, the Mineradio name, UI visual design and original visual expression belong to the original author; this repository uses those assets and the name only as an unofficial macOS adaptation and maintenance edition. Third-party dependencies and third-party services are subject to their respective licenses and terms of service.
+The MR logo, the Mineradio name, UI visual design and original visual expression belong to the original author; this repository uses those assets and the name only as an unofficial macOS adaptation. Third-party dependencies and third-party services are subject to their respective licenses and terms of service.
