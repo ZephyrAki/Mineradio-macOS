@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **项目状态：停止维护（Unmaintained）**
+>
+> 本项目已停止主动维护，未来不再计划提供功能更新、Bug 修复或兼容性支持。
+>
+> 项目源代码及现有发布版本将继续保留，供学习、参考及使用。仓库归档后为只读，不再接受新的 Issue 或 Pull Request。未来不排除恢复维护的可能。
+
 <div align="center">
 
 [![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-%E5%BD%93%E5%89%8D-4A90D9?style=for-the-badge)](./README.md)
@@ -9,16 +16,16 @@
 
 ![Mineradio 暗场启动页](./docs/assets/readme/cinema-beat-smoke.png)
 
-Mineradio macOS 是基于 [XxHuberrr/Mineradio](https://github.com/XxHuberrr/Mineradio) 的非官方 macOS 适配维护版。这个仓库会围绕 Mac 桌面体验继续维护：补齐 macOS 打包、平台路径、更新资产选择，并在此基础上探索更适合 macOS 的动效、窗口层级和沉浸式播放体验。
+Mineradio macOS 是基于 [XxHuberrr/Mineradio](https://github.com/XxHuberrr/Mineradio) 的非官方 macOS 适配版本。本仓库原以 Mac 桌面体验为维护方向：补齐 macOS 打包、平台路径、更新资产选择，并在此基础上探索更适合 macOS 的动效、窗口层级和沉浸式播放体验；现已停止主动维护。
 
-> 说明：本项目不是原作者发布的官方 Mac 版。原项目的代码、设计和品牌来源请见上游仓库；本仓库会在 GPL-3.0 授权范围内继续公开维护修改内容。
+> 说明：本项目不是原作者发布的官方 Mac 版。原项目的代码、设计和品牌来源请见上游仓库；本仓库的修改内容仍在 GPL-3.0 授权范围内公开保留。
 
 ## 项目定位
 
-- 面向 macOS 的 Mineradio 适配和长期维护版本
+- 面向 macOS 的 Mineradio 适配版本（已停止维护）
 - 保留原项目的沉浸式音乐播放器核心体验
-- 优先修复 macOS 运行、打包、路径、更新和桌面集成问题
-- 后续会加入更贴近 Mac 使用习惯的交互、动效和视觉细节
+- 此前以 macOS 运行、打包、路径、更新和桌面集成问题为维护重点
+- 原计划加入更贴近 Mac 使用习惯的交互、动效和视觉细节；现无后续开发计划
 
 如果你需要 Windows 官方安装包，请前往原项目仓库：
 
@@ -42,9 +49,9 @@ macOS 适配状态：
 当前 Release 安装包优先支持并测试 Apple Silicon Mac：
 
 - Apple Silicon：已发布 arm64 安装包，适用于 M1 / M2 / M3 / M4 系列 Mac
-- Intel Mac：暂未作为正式支持平台发布，后续会根据测试条件和用户反馈评估 x64 或 Universal 安装包
+- Intel Mac：未作为正式支持平台发布，现无评估或发布 x64 或 Universal 安装包的计划
 
-如果你使用的是 Intel Mac，请暂时不要把当前 arm64 安装包视为可用版本。欢迎在 Issues 中反馈设备型号、macOS 版本和启动日志，方便后续补齐兼容性验证。
+如果你使用的是 Intel Mac，请不要把当前 arm64 安装包视为可用版本。项目已停止维护，不再接受新的 Issue 或提供后续兼容性验证。
 
 ## 核心特性
 
@@ -113,12 +120,12 @@ Mineradio macOS 不是网易云音乐、QQ 音乐、腾讯音乐娱乐集团或�
 
 感谢 [XxHuberrr](https://github.com/XxHuberrr) 创建 Mineradio 原项目，并以 GPL-3.0 授权开放代码。本仓库的 macOS 适配工作建立在原项目基础之上。
 
-原项目 README 中列出的共创者、体验反馈者和发布准备协助者，同样是 Mineradio 能被继续适配和维护的重要基础。
+原项目 README 中列出的共创者、体验反馈者和发布准备协助者，同样为 Mineradio 此前的适配和维护提供了重要基础。
 
 ## 版权与授权
 
 Copyright (C) 2026 XxHuberrr.
 
-本仓库的修改内容由 AkiZephyr 维护，并继续采用 GPL-3.0 授权。详见 [LICENSE](./LICENSE)。
+本仓库的修改内容此前由 AkiZephyr 维护，仍采用 GPL-3.0 授权。详见 [LICENSE](./LICENSE)。
 
-MR Logo、Mineradio 名称、界面视觉设计与原创视觉表达归原作者所有；本仓库仅作为非官方 macOS 适配维护版本使用相关素材和名称。第三方依赖和第三方服务分别遵循其各自授权与服务条款。
+MR Logo、Mineradio 名称、界面视觉设计与原创视觉表达归原作者所有；本仓库仅作为非官方 macOS 适配版本使用相关素材和名称。第三方依赖和第三方服务分别遵循其各自授权与服务条款。
